@@ -12,9 +12,6 @@ engine=pyttsx3.init('sapi5')
 voices=engine.getProperty('voices')
 engine.setProperty('voice',voices[1].id)
 
-# Set the desired speed (change the value as needed)
-desired_speed = 110  # Adjust this value to set the speed
-engine.setProperty('rate', desired_speed)
 
 
 def speak(text):
